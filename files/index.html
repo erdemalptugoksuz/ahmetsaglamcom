@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Ahmet Sağlam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Sağlam</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Merhaba, <br>Ben <span>Ahmet Sağlam</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet asperiores beatae dolores eos, fuga illo labore laudantium nisi odio, odit perspiciatis praesentium quam quidem repellendus temporibus vel veniam! Tempore?</p>
+            <a href="#">Beni daha fazla tanı!</a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="/assets/facebook.png" alt="facebook logo"></a></li>
+            <li><a href="#"><img src="/assets/twitter.png" alt="twitter logo"></a></li>
+            <li><a href="#"><img src="/assets/instagram.png" alt="instagram logo"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
