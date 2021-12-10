@@ -108,15 +108,31 @@ header #toggle:after {
 .content {
     max-width: 600px;
 }
+.about {
+    max-width: 800px;
+}
 .content h2 {
     color: #fff;
     font-size: 2.5em;
+}
+.about h2 {
+    color: #fff;
+    font-size: 3em;
 }
 .content h2 span {
     color: #40c3ff;
     font-size: 1.2em;
 }
+.about h2 span {
+    color: #40c3ff;
+    font-size: 1.2em;
+}
 .content p {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 300;
+}
+.about p {
     font-size: 1.2em;
     color: #fff;
     font-weight: 300;
@@ -141,6 +157,7 @@ header #toggle:after {
 }
 .sci li {
     list-style: none;
+    display: inline;
 }
 .sci li a{
     position: relative;
@@ -156,7 +173,7 @@ header #toggle:after {
     background: #fff;
 }
 .sci li a img {
-    max-width: 20px;
+    max-width: 30px;
     filter: invert(1);
     mix-blend-mode: difference;
 }
