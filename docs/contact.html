@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta charset="UTF-8">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="index.html" class="logo">Sağlam</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="about">
+            <h2><span>İletişim</span></h2>
+            <p>Bütün iletişim kanallarıma sağ tarafta bulunan butonlara tıklayarak ulaşabilirsiniz.</p>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="whatsapp.png" alt="whatsapp logo"></a></li>
+            <li><a href="#"><img src="telegram.png" alt="telegram logo"></a></li>
+            <li><a href="#"><img src="mail.png" alt="mail logo"></a></li>
+            <li><a href="#"><img src="facebook.png" alt="facebook logo"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="twitter logo"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="instagram logo"></a></li>
+        </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="about.html">Hakkımda</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
