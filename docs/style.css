@@ -108,31 +108,15 @@ header #toggle:after {
 .content {
     max-width: 600px;
 }
-.about {
-    max-width: 800px;
-}
 .content h2 {
     color: #fff;
     font-size: 2.5em;
-}
-.about h2 {
-    color: #fff;
-    font-size: 3em;
 }
 .content h2 span {
     color: #40c3ff;
     font-size: 1.2em;
 }
-.about h2 span {
-    color: #40c3ff;
-    font-size: 1.2em;
-}
 .content p {
-    font-size: 1.2em;
-    color: #fff;
-    font-weight: 300;
-}
-.about p {
     font-size: 1.2em;
     color: #fff;
     font-weight: 300;
