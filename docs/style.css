@@ -188,7 +188,8 @@ header #toggle:after {
         font-size: 1.8em;
     }
     .banner .about p,
-    .banner .about a {
+    .banner .about a,
+    .banner .about li{
         font-size: 1em;
     }
     .banner .content p,
