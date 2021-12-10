@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Hakkımda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="banner" id="sec">
+    <header>
+        <a href="index.html" class="logo">Sağlam</a>
+        <div id="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="about">
+        <h2><span>Hakkımda</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet asperiores beatae dolores eos, fuga illo labore laudantium nisi odio, odit perspiciatis praesentium quam quidem repellendus temporibus vel veniam! Tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur iure laboriosam possimus saepe ullam. Esse harum laboriosam necessitatibus. Amet aspernatur magnam magni molestiae natus neque quaerat similique sint vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam delectus dolores doloribus porro sint. Ad aperiam, autem consequuntur facilis fugiat nihil vel! Esse fugiat laudantium minus neque quasi qui vitae.</p>
+    </div>
+</section>
+<div id="navigation">
+    <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="about.html">Hakkımda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    function toggle() {
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
